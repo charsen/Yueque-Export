@@ -20,6 +20,7 @@ API导出连着的图片时，会出现很多`<br />`，这时连续图片中只
 ```
 为了解决这一问题，在原来的ExportMD基础上，我增加了正则表达式，现在连续图片的导出已经没有问题
 这里特别感谢ExportMD！
+
 ### 版本v1.1
 实际使用的时候有遇到一些小问题，主要是接口限制等会导致有时候请求失败
 这里使用[@stone0090](https://github.com/stone0090/ExportMD-rectify-pics)的解决方案  
@@ -48,11 +49,13 @@ pip install -r requirements.txt
 知识库 [https://www.yuque.com/YourYuqueUserName](https://www.yuque.com/YourYuqueUserName)  对应的 *namespace* 为 *YourYuqueUserName*
 
 ## 获取 token
-![token](https://s3.jpg.cm/2021/08/17/IUIASp.png)
+语雀个人账号中设置
+
 ## 使用 python3 运行
 ```bash
 python ExportMD.py
 ```
+
 ## 输入namespace和token
 `⬆ ⬇`移动，`space`选择，`a`全选，`Enter`确认
 ![image](https://user-images.githubusercontent.com/61380549/162611337-9b2f875f-6cf0-47d6-87ba-6aa6a7f5efef.png)
